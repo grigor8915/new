@@ -1,0 +1,65 @@
+body{
+margin:0;
+padding:0;
+}
+/*
+/////////////
+HEADER
+/////////////
+*/
+header{
+height:41px;
+width:100%;
+min-width:296.500px;
+background-color:#4a76a8;
+}
+#header_content{
+margin:0 auto;
+height:41px;
+width:960px;
+
+}
+#logo{
+width:46px;
+height:46px;
+display:block;
+background-image:url("img/vk_logo.png");
+background-repeat:no-repeat;
+padding-left:120px;
+float:left;
+}
+#search_input{
+width:230px;
+border-radius:14px;
+border-color:#224b7a;
+margin:6px 0px;
+padding:4px;
+padding-left:19px;
+background-color:#224b7a;
+color:#4a76a8;
+background-image:url("img/ic_head_loupe.svg");
+background-repeat:no-repeat;
+background-position:3px 6px;
+}
+#search_input:focus{
+width:230px;
+border-radius:14px;
+border-color:#224b7a;
+display:box;
+margin:6px 0px;
+padding:4px;
+padding-left:19px;
+background-color:white;
+color:#4a76a8;
+}
+#eng_switch{
+height: 42px;
+color:white;
+float:right;
+text-align: left;
+}
+/*
+/////////////
+HEADER_END
+/////////////
+*/
